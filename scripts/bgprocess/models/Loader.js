@@ -55,6 +55,7 @@ define(['backbone', 'modules/RSSParser', 'modules/Animation', '../../libs/favico
         }
 
         constructor() {
+            const browser = window.browser || window.chrome;
             browser.runtime.onConnect.addListener(this.connected.bind(this));
             this._maxSources = 0;
             this._loaded = 0;
