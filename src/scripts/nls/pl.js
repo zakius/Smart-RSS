@@ -35,6 +35,8 @@ define({
 	TRASH: 'Kosz',
 	MARK_ALL_AS_READ: 'Oznacz wszystkie jako przeczytane',
 	PROPERTIES: 'Właściwości',
+    REFETCH: 'Odśwież',
+    OPENHOME: 'Strona kanału',
 	UNDELETE: 'Przywróć',
 	NEXT_UNREAD: 'Następna nieprzeczytana',
 	PREV_UNREAD: 'Poprzednia nieprzeczytana',
@@ -101,5 +103,14 @@ define({
     REMOVE_ALL: 'Wszystkie',
     KEEP_UNVISITED: 'Zachowaj nieodwiedzone',
     KEEP_UNREAD: 'Zachowaj nieprzeczytane',
+    
+    SORT_BY: 'Sortuj po',
+    DATE: 'dacie',
+    TITLE: 'tytule',
+    AUTHOR: 'autorze',
+
+    SORTING: 'Sortowanie',
+    SECONDARY_SORTING: 'Sortowanie drugorzędne',
+
 
 });
